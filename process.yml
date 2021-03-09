@@ -1,0 +1,12 @@
+apps:
+ - script  : go
+   watch   : false
+   name    : 'api-gateway'
+   args    : run api-gateway
+   log_date_format : 'YYYY-MM-DD HH:mm Z'
+   error_file      : /var/log/bettech/pm2.api-gateway.err
+   out_file        : /var/log/bettech/pm2.api-gateway.out
+   combine_logs    : false
+   max_restarts    : 10
+   min_uptime      : 100
+
