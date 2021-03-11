@@ -1,0 +1,19 @@
+{
+  "ErrorCodes" : [
+    {
+      "Name"  : "success_code",
+      "Code"  : 0,
+      "Value" : ""
+    },
+    {
+      "Name"  : "invalid_signature",
+      "Code"  : 101,
+      "Value" : "signature invalid"
+    },
+    {
+      "Name"  : "request_expired",
+      "Code"  : 102,
+      "Value" : "request expired"
+    }
+  ]
+}
